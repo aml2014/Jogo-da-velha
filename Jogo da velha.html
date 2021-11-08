@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        background-image: radial-gradient(2200px, yellow, green);
+    }
+
+    .Vez{
+        float: left;
+        margin-right: 10px;
+    }
+
+    #Mostrador{
+        margin-top: 50px;
+        position: absolute;
+        left: 40%;
+    }
+
+    .espaço{
+        width: 60px;
+        height: 50px;
+        border: black 3px solid;
+        float: left;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .Fase{
+        width: 252px;
+        position: absolute;
+        left: 42%;
+        top: 160px;
+    }
+</style>
+<body>
+    <div id="Mostrador">
+        <h1 class="Vez">Vez do jogador:</h1>
+        <img  src="" width="60px" height="60px">
+    </div>
+    <br><br><br>
+    <div class="Fase">
+        <div id="a1" class="espaço" jogada=""></div>
+        <div id="a2" class="espaço" jogada=""></div>
+        <div id="a3" class="espaço" jogada=""></div>
+
+        <div id="b1" class="espaço" jogada=""></div>
+        <div id="b2" class="espaço" jogada=""></div>
+        <div id="b3" class="espaço" jogada=""></div>
+
+        <div id="c1" class="espaço" jogada=""></div>
+        <div id="c2" class="espaço" jogada=""></div>
+        <div id="c3" class="espaço" jogada=""></div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
